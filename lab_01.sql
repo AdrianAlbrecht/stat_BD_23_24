@@ -71,3 +71,4 @@ CREATE TABLE Job_history (
 
 ALTER TABLE Departaments ADD FOREIGN KEY (Manager_ID) REFERENCES Employees(Employee_ID);
 ALTER TABLE Employees ADD FOREIGN KEY (Manager_ID) REFERENCES Employees(Employee_ID);
+ALTER TABLE Employees ADD FOREIGN KEY (Department_ID) REFERENCES Departaments(Department_ID);
