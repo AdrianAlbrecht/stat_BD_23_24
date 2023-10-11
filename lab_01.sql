@@ -1,7 +1,7 @@
 CREATE TABLE Regions (
     Region_ID int NOT NULL,
     Region_name VARCHAR(100) NOT NULL,
-    PRIMARY KEY (region_id)
+    PRIMARY KEY (Region_id)
 );
 
 CREATE TABLE Countries (
